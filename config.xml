@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.example"
+        versionCode="10" <!-- optional: Android only -->
+        version   = "1.0.0">
+
+    <name>Jomel Bola</name>
+
+    <description>
+     Jomel Group Company
+    </description>
+
+    <author href="https://build.phonegap.com" email="jomel_tcg@yahoo.com">
+    Simple guy
+    </author>
+<preference name="target-device" value="universal" />
+<preference name="prerendered-icon" value="true" />
+</widget>
