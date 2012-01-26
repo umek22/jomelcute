@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html manifest="MyHomeStuff.manifest">
+   <head>
+   	  <meta name="viewport" content="width=480; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+      <title>MyHomeStuff</title>
+      <script type="text/javascript" src="MyHomeStuff.js" ></script>
+   </head>
+   <body onload="onInit()">
+      <h3>Overview.</h3>
+      <ul  id="itemData" >
+      </ul>
+	  <h3>Details</h3>
+      <form name="itemForm">
+		<label for="id">Id:</label><input type="text" name="id" id="id" size=2 disabled="true"/>
+		<label for="amount">Qty:</label><input type="text" name="amount" id="amount" size = 3/>
+		<label for="name">Name:</label><input type="text" name="name" id="name" size=10 /> <br>
+		<br>
+		<input type="button" name="create" value="create" onclick="onCreate()" />
+		<input type="button" name="update" value="update" onclick="onUpdate()" />
+		<input type="button" name="delete" value="delete" onclick="onDelete()" />
+      </form>
+	  <h4>Status</h4>
+      <div id="status"></div>
+   </body>
+</html>
